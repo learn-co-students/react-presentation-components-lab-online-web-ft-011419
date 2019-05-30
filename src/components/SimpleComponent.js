@@ -5,7 +5,7 @@ state= {
   mood: "happy"
 }
 
-  handleClick =() =>{
+  handleClick = () =>{
     const changedmood = this.state.mood === 'happy' ? 'sad' : 'happy';
     this.setState(
       {mood: changedmood}
@@ -13,12 +13,12 @@ state= {
   }
 
 redner() {
-  return (
+  return 
 
-    <div onClick={this.handleClick()}> 
+    <div onClick={this.handleClick}> 
     {this.state.mood}>
    
     </div>
-  )
+  
 }
 }
